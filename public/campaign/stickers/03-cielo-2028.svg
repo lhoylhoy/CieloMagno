@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Cielo 2028 sticker</title>
+  <desc id="desc">Night square sticker with the words Cielo 2028 and The People's Economist.</desc>
+  <rect width="512" height="512" rx="56" fill="#090D16"/>
+  <rect x="22" y="22" width="468" height="468" rx="40" fill="none" stroke="#F59E0B" stroke-opacity=".55" stroke-width="3"/>
+  <circle cx="256" cy="256" r="172" fill="none" stroke="#F43F5E" stroke-opacity=".45" stroke-width="20"/>
+  <g font-family="Arial Black, Impact, sans-serif" text-anchor="middle">
+    <text x="256" y="166" font-size="34" letter-spacing="8" fill="#F59E0B">CIELO</text>
+    <text x="256" y="316" font-size="126" letter-spacing="-5" fill="#FFF7ED">2028</text>
+    <text x="256" y="410" font-size="26" letter-spacing="5" fill="#FFF7ED">THE PEOPLE'S ECONOMIST</text>
+  </g>
+  <g fill="#F43F5E">
+    <circle cx="256" cy="80" r="8"/><circle cx="256" cy="432" r="8"/>
+    <circle cx="80" cy="256" r="8"/><circle cx="432" cy="256" r="8"/>
+  </g>
+</svg>

@@ -1,0 +1,148 @@
+import type { EngagementSeed } from './engagementUtils'
+
+export const domesticSeedsA: EngagementSeed[] = [
+  {
+    role: 'Resource Speaker',
+    title:
+      '"Law in Motion: A Legal Forum on Current National and Global Issues"',
+    venue: 'PUP College of Law Student Council',
+    location: 'Polytechnic University of the Philippines (webinar)',
+    date: 'August 22, 2026',
+    scope: 'Domestic',
+    audience: 'Students & youth',
+  },
+  {
+    role: 'Keynote Speaker',
+    title: '"Understanding Pax Silica" Online Lecture',
+    venue: 'Alyansa, University of St. La Salle–Bacolod',
+    location: 'Bacolod (online)',
+    date: 'August 20, 2026',
+    scope: 'Domestic',
+    audience: 'Students & youth',
+  },
+  {
+    role: 'Speaker',
+    title: '"Poultry Industry Competitiveness"',
+    venue: 'Philippine Poultry Show & ILDEX Philippines 2026',
+    location: 'SMX Convention Center, Manila',
+    date: 'August 28, 2026',
+    scope: 'Domestic',
+    audience: 'Industry & business',
+  },
+  {
+    role: 'Speaker',
+    title: '"Resilience & Reinvention: Steering thru Economic Transitions"',
+    venue:
+      'Chinese Filipino Business Club and Chinese Filipino Alumni Association Inc.',
+    location: 'Pamantasan ng Lungsod ng Maynila',
+    date: 'August 15, 2026',
+    scope: 'Domestic',
+    audience: 'Industry & business',
+  },
+  {
+    role: 'Speaker',
+    title:
+      '"Public Procurement and the Use of Public Funds" — PCIJ Training for Journalists',
+    venue: 'Philippine Center for Investigative Journalism',
+    location: 'La Breza Hotel, Diliman, Quezon City',
+    date: 'August 13, 2026',
+    scope: 'Domestic',
+    audience: 'Media & civil society',
+  },
+  {
+    role: 'Speaker',
+    title:
+      'UP Diliman Extension Programs in Pampanga and Olongapo (UPDEPPO) Recognition Rites',
+    venue: 'UPDEPPO',
+    location: 'Pampanga / Olongapo',
+    date: 'July 2, 2026',
+    scope: 'Domestic',
+    audience: 'Students & youth',
+  },
+  {
+    role: 'Guest Speaker',
+    title: 'PCCI Bataan 2nd Quarter General Membership Meeting',
+    venue: 'Philippine Chamber of Commerce and Industry — Bataan',
+    location: 'Bataan',
+    date: 'June 25, 2026',
+    scope: 'Domestic',
+    audience: 'Industry & business',
+  },
+  {
+    role: 'Distinguished Speaker',
+    title: '35th North Luzon Area Business Conference',
+    venue: 'PCCI Tarlac / Bulacan Chamber of Commerce',
+    location: 'Tarlac',
+    date: 'June 3, 2026',
+    scope: 'Domestic',
+    audience: 'Industry & business',
+  },
+  {
+    role: 'Resource Person',
+    title:
+      'Session 2: "Accountability — Strengthening Integrity in Public Service" — Kamalayan III',
+    venue: 'Angat Taytay',
+    location: 'One Cainta Auditorium, Cainta, Rizal',
+    date: 'May 27, 2026',
+    scope: 'Domestic',
+    audience: 'Students & youth',
+  },
+  {
+    role: 'Guest Speaker',
+    title: 'CEFI 51st Commencement Exercises',
+    venue: 'Calayan Educational Foundation, Inc.',
+    location: 'Lucena City, Quezon',
+    date: 'May 29, 2026',
+    scope: 'Domestic',
+    audience: 'Students & youth',
+  },
+  {
+    role: 'Speaker',
+    title: '"ECONstructing Your Future 2026"',
+    venue: 'PUP Economics Research Society',
+    location: 'Polytechnic University of the Philippines',
+    date: 'May 26, 2026',
+    scope: 'Domestic',
+    audience: 'Students & youth',
+  },
+  {
+    role: 'Commencement Speaker',
+    title:
+      'Ateneo de Manila Senior High School 2026 Commencement Exercises (ABM & STEM Strands)',
+    venue: 'Ateneo de Manila Senior High School',
+    location: 'Quezon City',
+    date: 'May 15, 2026',
+    scope: 'Domestic',
+    audience: 'Students & youth',
+  },
+  {
+    role: 'Guest Speaker',
+    title:
+      '"The Philippines as an Import-Driven Economy: Impacts, Risks, and Policy Responses" — Academic Forum',
+    venue:
+      'CDSGA League of Political Science Students, Colegio De San Gabriel Arcangel',
+    location: 'Bulacan',
+    date: 'May 11, 2026',
+    scope: 'Domestic',
+    audience: 'Students & youth',
+  },
+  {
+    role: 'Resource Speaker',
+    title: '"Healthcare Financing"',
+    venue:
+      'Philippine League of Government and Private Midwives, Inc. (PLGPMI) 27th National General Assembly',
+    location: 'Philippines',
+    date: 'April 17, 2026',
+    scope: 'Domestic',
+    audience: 'Policy & governance',
+  },
+  {
+    role: 'Resource Speaker',
+    title: 'Clergy Gathering, Diocese of Gumaca',
+    venue: 'Diocese of Gumaca',
+    location: 'Gumaca, Quezon',
+    date: 'April 13, 2026',
+    scope: 'Domestic',
+    audience: 'Media & civil society',
+  },
+]

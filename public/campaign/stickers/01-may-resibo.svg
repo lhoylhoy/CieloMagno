@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">May Resibo sticker</title>
+  <desc id="desc">Crimson square sticker with the words May Resibo and Cielo Magno 2028.</desc>
+  <rect width="512" height="512" rx="56" fill="#F43F5E"/>
+  <rect x="22" y="22" width="468" height="468" rx="40" fill="none" stroke="#FFF7ED" stroke-opacity=".55" stroke-width="3"/>
+  <path d="M56 392 L456 120" stroke="#FFF7ED" stroke-opacity=".18" stroke-width="22"/>
+  <g fill="#FFF7ED" font-family="Arial Black, Impact, sans-serif" text-anchor="middle">
+    <text x="256" y="178" font-size="36" letter-spacing="7">CIELO MAGNO</text>
+    <text x="256" y="284" font-size="88" letter-spacing="-3">MAY</text>
+    <text x="256" y="372" font-size="88" letter-spacing="-3">RESIBO</text>
+    <text x="256" y="432" font-size="27" letter-spacing="6" fill="#090D16">SENATOR 2028</text>
+  </g>
+  <g fill="#FFF7ED">
+    <circle cx="88" cy="88" r="7"/><circle cx="424" cy="424" r="7"/>
+  </g>
+</svg>

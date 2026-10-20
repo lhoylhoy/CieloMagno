@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Ekonomista ng Bayan sticker</title>
+  <desc id="desc">Emerald square sticker with the words Ekonomista ng Bayan and May Plano.</desc>
+  <rect width="512" height="512" rx="56" fill="#10B981"/>
+  <rect x="22" y="22" width="468" height="468" rx="40" fill="none" stroke="#090D16" stroke-opacity=".4" stroke-width="3"/>
+  <path d="M64 392 C160 300 220 340 290 250 C350 174 400 190 448 120" fill="none" stroke="#090D16" stroke-opacity=".16" stroke-width="22" stroke-linecap="round"/>
+  <g fill="#090D16" font-family="Arial Black, Impact, sans-serif" text-anchor="middle">
+    <text x="256" y="150" font-size="34" letter-spacing="7">MAY PLANO</text>
+    <text x="256" y="244" font-size="74" letter-spacing="-2">EKONOMISTA</text>
+    <text x="256" y="326" font-size="74" letter-spacing="-2">NG BAYAN</text>
+    <text x="256" y="422" font-size="28" letter-spacing="5">CIELO MAGNO · 2028</text>
+  </g>
+  <g fill="#090D16">
+    <rect x="74" y="74" width="18" height="18" rx="3"/>
+    <rect x="420" y="420" width="18" height="18" rx="3"/>
+  </g>
+</svg>

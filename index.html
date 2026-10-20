@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en-PH" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090D16" />
+    <meta name="color-scheme" content="dark light" />
+
+    <title>Cielo Magno for Senator 2028 — The People's Economist</title>
+    <meta
+      name="description"
+      content="The official campaign website of Dr. Cielo Magno for Senator 2028: the record, the receipts, the 2028 agenda, and a budget decoder."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_PH" />
+    <meta property="og:site_name" content="Cielo Magno for Senator 2028" />
+    <meta property="og:title" content="Cielo Magno for Senator 2028 — The People's Economist" />
+    <meta
+      property="og:description"
+      content="The official campaign website of Dr. Cielo Magno for Senator 2028: the record, the receipts, the 2028 agenda, and a budget decoder."
+    />
+    <meta property="og:image" content="/images/cielo-magno/cielo-magno-og.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Dr. Cielo Magno, official campaign portrait, smiling with her arms crossed."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Cielo Magno for Senator 2028 — The People's Economist" />
+    <meta
+      name="twitter:description"
+      content="The official campaign website of Dr. Cielo Magno for Senator 2028: the record, the receipts, the 2028 agenda, and a budget decoder."
+    />
+    <meta name="twitter:image" content="/images/cielo-magno/cielo-magno-og.jpg" />
+    <meta
+      name="twitter:image:alt"
+      content="Dr. Cielo Magno, official campaign portrait, smiling with her arms crossed."
+    />
+
+    <meta name="author" content="Cielo Magno" />
+    <meta
+      name="keywords"
+      content="Cielo Magno, Senator 2028, economist, UP School of Economics, public finance, budget transparency, Philippines"
+    />
+
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      // Set the theme before paint to avoid a flash of the wrong palette.
+      try {
+        if (localStorage.getItem('cm-theme') === 'light') {
+          document.documentElement.classList.add('theme-light')
+          document
+            .querySelector('meta[name="theme-color"]')
+            ?.setAttribute('content', '#FAF8F5')
+        }
+      } catch (error) {
+        /* localStorage may be unavailable in private modes */
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

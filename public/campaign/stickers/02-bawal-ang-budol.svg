@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Bawal ang Budol sticker</title>
+  <desc id="desc">Amber square sticker with the words Bawal ang Budol sa Budget.</desc>
+  <rect width="512" height="512" rx="56" fill="#F59E0B"/>
+  <rect x="22" y="22" width="468" height="468" rx="40" fill="none" stroke="#090D16" stroke-opacity=".45" stroke-width="3"/>
+  <path d="M56 120 L456 392" stroke="#090D16" stroke-opacity=".14" stroke-width="22"/>
+  <g fill="#090D16" font-family="Arial Black, Impact, sans-serif" text-anchor="middle">
+    <text x="256" y="148" font-size="34" letter-spacing="7">SA BUDGET</text>
+    <text x="256" y="248" font-size="76" letter-spacing="-2">BAWAL ANG</text>
+    <text x="256" y="340" font-size="92" letter-spacing="-3">BUDOL</text>
+    <text x="256" y="424" font-size="28" letter-spacing="5">CIELO MAGNO · 2028</text>
+  </g>
+  <g fill="#090D16">
+    <path d="M88 88 l12 24 26 4 -19 18 5 26 -24 -13 -24 13 5 -26 -19 -18 26 -4z"/>
+    <path d="M424 392 l10 20 22 3 -16 15 4 22 -20 -11 -20 11 4 -22 -16 -15 22 -3z"/>
+  </g>
+</svg>

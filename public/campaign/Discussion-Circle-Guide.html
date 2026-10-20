@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en-PH">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <title>Cielo 2028 · Discussion Circle Guide</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --night: #090d16;
+        --surface: #0f172a;
+        --ink: #f6f3ed;
+        --muted: #9ea8ba;
+        --line: rgba(148, 163, 184, 0.2);
+        --crimson: #f43f5e;
+        --amber: #f59e0b;
+        --emerald: #10b981;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--night);
+        color: var(--ink);
+        font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+        line-height: 1.65;
+      }
+      main {
+        width: min(100% - 2rem, 48rem);
+        margin: 0 auto;
+        padding: 3rem 0 5rem;
+      }
+      .eyebrow {
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-size: 0.66rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--amber);
+      }
+      h1 {
+        margin: 0.5rem 0 1rem;
+        font-size: clamp(2.2rem, 8vw, 4rem);
+        line-height: 0.95;
+        letter-spacing: -0.04em;
+      }
+      h1 em { color: var(--crimson); font-family: Georgia, serif; font-weight: 400; }
+      .lede { max-width: 38rem; color: var(--muted); }
+      .rule { height: 1px; margin: 2rem 0; background: var(--line); }
+      ol { padding: 0; counter-reset: q; list-style: none; display: grid; gap: 0.75rem; }
+      li {
+        counter-increment: q;
+        position: relative;
+        padding: 1rem 1rem 1rem 3.5rem;
+        border: 1px solid var(--line);
+        border-radius: 1rem;
+        background: var(--surface);
+      }
+      li::before {
+        content: "0" counter(q);
+        position: absolute;
+        left: 1rem;
+        top: 1rem;
+        color: var(--amber);
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-size: 0.7rem;
+      }
+      .grid { display: grid; gap: 0.75rem; }
+      .card {
+        padding: 1rem;
+        border: 1px solid var(--line);
+        border-radius: 1rem;
+        background: var(--surface);
+      }
+      .card strong { display: block; margin-bottom: 0.25rem; }
+      a { color: var(--emerald); }
+      .note { color: var(--muted); font-size: 0.78rem; }
+      .stamp {
+        display: inline-block;
+        margin-top: 2rem;
+        padding: 0.5rem 0.8rem;
+        border-radius: 999px;
+        background: var(--amber);
+        color: var(--night);
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-size: 0.6rem;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+      }
+      @media print {
+        :root { color-scheme: light; }
+        body { background: #fff; color: #111; }
+        li, .card { background: #fff; border-color: #ddd; }
+        .eyebrow, li::before { color: #b45309; }
+        h1 em { color: #be123c; }
+        .lede, .note { color: #444; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">Cielo 2028 · Official organizing resource</p>
+      <h1>Five questions for a <em>better</em> conversation.</h1>
+      <p class="lede">
+        A discussion circle guide for students, org mates, and friends. No economics degree
+        required. No data collected. Bring one source and one question.
+      </p>
+      <div class="rule"></div>
+      <h2>Before you start</h2>
+      <div class="grid">
+        <div class="card"><strong>Pick one line.</strong> A budget item, a news story, or a public project that affects your area.</div>
+        <div class="card"><strong>Bring one source.</strong> A DBM page, a COA report, a news article, or a local ordinance.</div>
+        <div class="card"><strong>Agree on one rule.</strong> Every claim gets a receipt.</div>
+      </div>
+      <div class="rule"></div>
+      <h2>The five questions</h2>
+      <ol>
+        <li>Which budget line in your barangay is hardest to see?</li>
+        <li>What is the difference between a published budget and a transparent budget?</li>
+        <li>Who bears the cost when health funds are diverted?</li>
+        <li>Why can a price cap create a shortage?</li>
+        <li>What would you ask a candidate to publish before election day?</li>
+      </ol>
+      <div class="rule"></div>
+      <h2>Close the circle</h2>
+      <div class="grid">
+        <div class="card"><strong>One check.</strong> Name one thing you can verify this week.</div>
+        <div class="card"><strong>One ask.</strong> Name one thing you can ask a public official to publish.</div>
+        <div class="card"><strong>One share.</strong> Share the source, not the rumor.</div>
+      </div>
+      <div class="rule"></div>
+      <h2>Source trail</h2>
+      <p class="note">
+        DBM General Appropriations Act: <a href="https://www.dbm.gov.ph/">dbm.gov.ph</a><br />
+        Commission on Audit: <a href="https://www.coa.gov.ph/">coa.gov.ph</a><br />
+        PhilHealth: <a href="https://www.philhealth.gov.ph/">philhealth.gov.ph</a><br />
+        Supreme Court: <a href="https://sc.judiciary.gov.ph/">sc.judiciary.gov.ph</a>
+      </p>
+      <p class="stamp">May resibo · May prinsipyo · 2028</p>
+      <p class="note">
+        Published by the Cielo Magno for Senator 2028 campaign desk. Free to print, copy, and
+        share for campus and community discussion circles.
+      </p>
+    </main>
+  </body>
+</html>
