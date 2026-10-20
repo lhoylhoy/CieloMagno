@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "type": "module",
   "description": "The official campaign website of Dr. Cielo Magno for Senator 2028.",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
